@@ -1,18 +1,14 @@
 {
-  "name": "rocket-shop",
+  "name": "subscriptions",
   "version": "1.0.0",
-  "description": "",
+  "description": "The subscrition module for rocket shop",
   "main": "index.js",
-  "directories": {
-    "test": "test"
-  },
   "scripts": {
     "test": "node_modules/mocha/bin/mocha"
   },
-  "author": "jitu",
+  "author": "",
   "license": "ISC",
   "devDependencies": {
-    "coffee-script": "^1.12.7",
     "mocha": "^5.2.0",
     "sinon": "^6.0.0"
   },
