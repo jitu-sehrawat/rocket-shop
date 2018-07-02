@@ -1,22 +1,22 @@
 {
-  "name": "rocket-shop",
+  "name": "subscriptions",
   "version": "1.0.0",
-  "description": "",
+  "description": "The subscription module for Rocket Shop",
   "main": "index.js",
-  "directories": {
-    "test": "test"
-  },
   "scripts": {
-    "test": "node_modules/mocha/bin/mocha"
+    "test": "mocha"
   },
-  "author": "jitu",
+  "author": "Rob Conery",
   "license": "ISC",
-  "devDependencies": {
-    "coffee-script": "^1.12.7",
-    "mocha": "^5.2.0",
-    "sinon": "^6.0.0"
-  },
   "dependencies": {
-    "moment": "^2.22.2"
+    "async": "^0.9.0",
+    "moment": "^2.9.0",
+    "nedb": "^1.1.1",
+    "stripe": "^3.3.2",
+    "underscore": "^1.8.2"
+  },
+  "devDependencies": {
+    "nock": "^1.1.0",
+    "sinon": "^1.12.2"
   }
 }

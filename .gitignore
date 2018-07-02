@@ -3,3 +3,9 @@ node_modules/
 .idea/
 *.swp
 *.swo
+
+.vscode/
+node_modules/
+client/node_modules/
+package-lock.json
+
